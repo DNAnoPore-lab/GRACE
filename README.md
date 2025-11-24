@@ -61,7 +61,7 @@ Run the following command line:
 ```
 python GRACE_pipeline.py
 ```
-The expected run time for demo is 2 minutes.
+The expected run time for demo is 2 minutes.  
 The expected output contains the features extracted and the G-score:
 ```
 short_fragment_ratio: [[0.18833348 0.59683794 0.16401111]]
