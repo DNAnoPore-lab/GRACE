@@ -65,7 +65,7 @@ Run the following command line:
 python GRACE_pipeline.py
 ```
 The expected run time for demo is 2 minutes.  
-The expected output contains the features extracted and the G-score:
+The expected output contains the features extracted and the G-score predicted by GRACE:
 ```
 short_fragment_ratio: [[0.18833348 0.59683794 0.16401111]]
 end_motif_feature: [['0.83321152' '0.33620816' '0.46776787' '0.38006139' '0.38737027'
