@@ -1,6 +1,6 @@
 
 # GRACE
-GRACE (**G**astric cancer detection with f**RA**gmentomi**C** and **E**pigenetic features) is a multidimensional diagnostic model for gastic cancer. The fast workflow of GRACE that can realize accurate detection of gastric cancer within 6.5 hours of blood draw.  
+GRACE (**G**astric cancer detection with f**RA**gmentomi**C** and **E**pigenetic features) is a multidimensional diagnostic model for gastic cancer. The fast workflow of GRACE can realize accurate detection of gastric cancer within 6.5 hours of blood draw.  
 
 The GRACE fast diagnostic pipeline integrates the data filtration process[1], the extraction process of fragmentomic (fragment ratio, end motif[1]) and epigenetic (genome-level, bin-level) features, and the GRACE model prediction process. The output of this pipeline is the features extracted and the G-score predicted by GRACE.
 
