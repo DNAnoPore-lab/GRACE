@@ -1,6 +1,8 @@
 
 # GRACE
-GRACE (**G**astric cancer detection with f**RA**gmentomi**C** and **E**pigenetic features) is a multidimensional diagnostic model for gastic cancer. The fast workflow of GRACE that can realize accurate detection of gastric cancer within 6.5 hours of blood draw.
+GRACE (**G**astric cancer detection with f**RA**gmentomi**C** and **E**pigenetic features) is a multidimensional diagnostic model for gastic cancer. The fast workflow of GRACE that can realize accurate detection of gastric cancer within 6.5 hours of blood draw.  
+
+The GRACE fast diagnostic pipeline integrates the data filtration process[1], the extraction process of fragmentomic (fragment ratio, end motif[1]) and epigenetic (genome-level, bin-level) features, and the GRACE model prediction process. The output of this pipeline is the features extracted and the G-score predicted by GRACE.
 
 ## Requirements
 #### Hardware requirements
@@ -10,12 +12,13 @@ GRACE (**G**astric cancer detection with f**RA**gmentomi**C** and **E**pigenetic
 #### Software requirements
 - dorado (0.8.0, 1.0.2)  
 - samtools (1.13)  
+- perl (5.34.0)  
 - awk (5.1.0)  
 - wc (8.32)  
 - samtools (1.13)  
 - modkit (0.4.0)  
 - bedtools (2.30.0)  
-- R (4.3.0)  
+- R (4.3.0) packages: vroom, data.table, tidyr, readr, tidyverse, dplyr 
 - Python (3.13) dependencies: sys, joblib, shutil, subprocess, numpy, pandas  
 
 **Note that:**   
@@ -117,3 +120,7 @@ bin_level_feature: [['79.56989' '76' '81.39535' '84.25197' '88' '72.22222' '82.2
   
   G-score: [0.65013023]
 ```
+
+
+
+[1] The data filtration process and the end motif feature extraction process in this pipeline were based on codes deposited by Katsman et al ([Puputnik/Fragmentomics_GenomBiol: Pipeline to replicate Katsman et. al fragmentomics results](https://github.com/Puputnik/Fragmentomics_GenomBiol)).
