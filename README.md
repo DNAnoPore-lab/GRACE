@@ -22,7 +22,7 @@ The GRACE fast diagnostic pipeline integrates the data filtration process[1], th
 - Python (3.13) dependencies: sys, joblib, shutil, subprocess, numpy, pandas  
 
 **Note that:**   
-Both 0.8.0 and 1.0.2 version of dorado are needed for analysis, please use different suffix to distinguish between two versions (e.g. dorado0.8.0, dorado1.0.2).
+Both 0.8.0 and 1.0.2 version of dorado are needed for analysis, please use different suffix to distinguish between two versions (e.g., dorado0.8.0, dorado1.0.2).
 
 ## Installation
 Clone this project to your home (typically takes 10s to install) :
